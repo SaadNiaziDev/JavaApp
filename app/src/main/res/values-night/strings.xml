@@ -3,4 +3,6 @@
     <string name="value_to_convert">Value To Convert:</string>
     <string name="convert_metric_units">Convert Metric Units</string>
     <string name="a_real_number_or_scientific_notation">a real number or scientific notation</string>
+    <string name="from">From :</string>
+    <string name="to">To :</string>
 </resources>
