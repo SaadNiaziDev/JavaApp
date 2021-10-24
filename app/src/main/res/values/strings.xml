@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Unit Converter</string>
     <string name="value_to_convert">Value To Convert:</string>
     <string name="convert_metric_units">Convert Metric Units</string>
@@ -7,14 +7,14 @@
     <string name="to">To :</string>
     <string name="calculate">Calculate</string>
     <string name="clear">Clear</string>
-    <string-array name="brew_array">
+    <string-array name="brew">
         <item>Cappuccino</item>
         <item>Espresso</item>
         <item>Mocha</item>
         <item>Caffè Americano</item>
         <item>Cafe Zorro</item>
     </string-array>
-    <string-array name="brew_array">
+    <string-array name="brew_array" tools:ignore="DuplicateDefinition">
         <item>Cappuccino</item>
         <item>Espresso</item>
         <item>Mocha</item>

@@ -9,19 +9,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="106dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="44dp"
-        android:text="@string/to"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/static_spinner"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <TextView
         android:id="@+id/topbox"
         android:layout_width="409dp"
         android:layout_height="68dp"
@@ -70,34 +57,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="97dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="104dp"
-        android:background="@android:drawable/btn_dropdown"
-        android:rotationX="-2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.34"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
-
-    <Spinner
-        android:id="@+id/static_spinner"
-        android:layout_width="97dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="36dp"
-        android:background="@android:drawable/btn_dropdown"
-        app:layout_constraintTop_toBottomOf="@+id/spinner"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="227dp" />
-
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="299dp"
         android:layout_height="128dp"
-        android:layout_marginTop="352dp"
+        android:layout_marginTop="348dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:importantForAutofill="no"
@@ -112,7 +76,7 @@
         android:id="@+id/textView3"
         android:layout_width="106dp"
         android:layout_height="48dp"
-        android:layout_marginStart="76dp"
+        android:layout_marginStart="84dp"
         android:layout_marginTop="104dp"
         android:text="@string/from"
         android:textAlignment="center"
@@ -120,6 +84,47 @@
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="97dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:rotationX="-2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <Spinner
+        android:id="@+id/static_spinner"
+        android:layout_width="97dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="84dp"
+        android:background="@android:drawable/btn_dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/to"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/static_spinner"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView5"
@@ -138,11 +143,11 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="40dp"
         android:text="@string/clear"
         android:textColor="#1DE9B6"
         app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintHorizontal_bias="0.63"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:ignore="TextContrastCheck" />
@@ -151,8 +156,8 @@
         android:id="@+id/button2"
         android:layout_width="125dp"
         android:layout_height="49dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="64dp"
         android:text="@string/calculate"
         android:textColor="#1DE9B6"
         android:textSize="14sp"
